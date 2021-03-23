@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Faster+One&display=swap" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+h1
+{
+  font-family: 'Faster One', cursive;
+  color: #FF8C00 ;
+  text-align: center;
+  font-size: 150px;
+}
+h2
+{
+  font-family: 'Faster One', cursive;
+  color: #FF8C00 ;
+  text-align: center;
+  font-size: 100px;
+}
+h3
+{
+  font-family: 'Sue Ellen Francisco', cursive;
+  color: #000000 ;
+  text-align: center;
+  font-size: 30px;
+}
+h4
+{
+  font-family: 'Faster One', cursive;
+  color: #FF8C00 ;
+  text-align: center;
+  font-size: 50px;
+}
+
+body, html {height: 100%}
+p {line-height: 3;
+font-family: 'Sue Ellen Francisco', cursive;
+color: #000000 ;
+font-size: 25px;
+}
+.bgimg {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url("E:/FPT/Webdesign 2/assignment 2/pictures/a7.jpg")}
+
+video {
+  width: 100%;
+  height: 100%;
+}
+#more {display: none;}
+ /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+</style>
+<body>
+
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg " id="home">
+  <div class="w3-center">
+    <h1>FCAMP</h1>
+    <h4>ARE YOU READY?</h4>
+    <h3>23.03.2021</h3>
+  <!-- RSVP section -->
+<div class="w3-container w3-center" id="rsvp">
+  <h2 class="w3-xlarge">
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-orange " style="padding:8px 60px">SIGN UP</button>
+  </h2>
+</div>
+</header>
+<!----------->
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+    <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
+    <a href="#Abouts" style="width:25%" class="w3-bar-item w3-button">Abouts</a>
+    <a href="#Games" style="width:25%" class="w3-bar-item w3-button">Games</a>
+    <a href="#Food" style="width:25%" class="w3-bar-item w3-button w3-hover-black">Food</a>
+  </div>
+</div>
+<!----Abouts------>
+
+<section id="Abouts">
+<div class="w3-container w3-padding-64 w3-pale-red ">
+  <div class="w3-content">
+    <h2 class="w3-center w3-text-grey">Abouts</h2>
+    <img src="./E:/FPT/Webdesign 2/assignment 2/pictures/a4.jpg" style="width:100%;margin:32px 0">
+    <p><i>We are very happy and proud to be a student of FPT University. We are learning and developing in an extremely dynamic environment, from the very first days we have participated in a very large and dynamic school event. That's Fresher's Party F- Camp 2021. There will be a lot of interesting things there. Let's find out
+      </i>
+    </p><br>
+    <h3 class="w3-center"><a href="#fc" class="w3-button w3-black w3-round w3-padding-large w3-large"><i>F-Camp Details</i></a></h3>
+  </div>
+</div>
+</section>
+
+
+<!---------Games------------>
+<section id="Games">
+  <br>
+  <h2 style="text-align: center;"><br>Games</h2>
+  <br>
+  <div class="w3-container w3-padding-64 " id="Games">
+  <div class="w3-content">
+    <p><i>There are many games with high teamwork, building teamwork skills, there are also games that require strength, intelligence, ... Games will be better than staying in the room. an entire day, right?
+    </i>
+    </p>
+     </div>
+</div>
+
+  <div class="container " >
+<!---------container 1------------>
+  <div class="row">
+ <!--- colum1 --->
+     <div class="col">
+        <br> <br>
+     <img src="E:\FPT\Webdesign 2\assignment 2\pictures\g1.jpg" width="330" height="330">
+     <br> <br>
+     <h3> <i>Game1</i></h3>
+     <br> <br>
+     </div>
+ <!--- colum2 --->
+     <div class="col">
+     	<br> <br>
+     <img src="E:\FPT\Webdesign 2\assignment 2\pictures\g2.jpg" width="330" height="330">
+     <br> <br>
+     <h3> <i>Game2</i></h3>
+     <br> <br>
+     </div>
+ <!--- colum2 --->
+     <div class="col">
+     	<br> <br>
+     <img src="E:\FPT\Webdesign 2\assignment 2\pictures\g3.jpg" width="330" height="330">
+     <br> <br>
+     <h3> <i>Game3</i></h3>
+     <br> <br>
+    </div>
+  </div>
+<!---------container 2------------>
+  <div class="row">
+ <!--- colum1 --->
+     <div class="col">
+     	<br> <br>
+     <img src="E:\FPT\Webdesign 2\assignment 2\pictures\g4.jpg" width="330" height="330">
+     <br> <br>
+     <h3> <i>Game4</i></h3>
+     <br> <br>
+     </div>
+ <!--- colum2 --->
+     <div class="col">
+     	<br> <br>
+     <img src="E:\FPT\Webdesign 2\assignment 2\pictures\g5.jpg" width="330" height="330">
+     <br> <br>
+     <h3> <i>Game5</i></h3>
+     <br> <br>
+     </div>
+ <!--- colum2 --->
+     <div class="col">
+     	<br> <br>
+     <img src="E:\FPT\Webdesign 2\assignment 2\pictures\g6.jpg" width="330" height="330">
+     <br> <br>
+      <h3> <i>Game6</i></h3>
+     <br> <br>
+     </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<!-- Food -->
+<section id="Food">
+	<br>
+	<br>
+	<br>
+	<h2 style="text-align: center;">Food</h2>
+	<div class="w3-container w3-padding-64 " id="us">
+  <div class="w3-content">
+    <p><i>
+There is plenty of room on campus for you to choose your favorite foods as well as drinks to accompany us towards the end of the program, you will have a wonderful day.
+    </i>
+    </p>
+     </div>
+</div>
+	<br> 
+	<div class="container">
+		<div class="row">
+			<div class="col" style="text-align: center;">
+				<br> <br>
+				<img src="E:\FPT\Webdesign 2\assignment 2\pictures\f1.jpg" width="330" height="330">
+				<br> <br>
+				<h3 style="text-align: center;"><i>Azzan Coffee</i></h3>
+			</div>
+
+			<div class="col" style="text-align: center;">
+				<br> <br>
+				<img src="E:\FPT\Webdesign 2\assignment 2\pictures\f2.jpg" width="330" height="330">
+				<br> <br>
+				<h3 style="text-align: center;"><i>SaoViet Food</i></h3>
+			</div>
+
+			<div class="col" style="text-align: center;">
+				<br> <br>
+				<img src="E:\FPT\Webdesign 2\assignment 2\pictures\f3.jpg" width="330" height="330">
+				<br> <br>
+				<h3 style="text-align: center;"><i>Highland Coffee</i></h3>
+			</div>
+		</div>
+        
+        <br> <br>
+		<div class="row">
+			<div class="col" style="text-align: center;">
+				<br> <br>
+				<img src="E:\FPT\Webdesign 2\assignment 2\pictures\f4.jpg" width="330" height="330">
+				<br> <br>
+				<h3 style="text-align: center;"><i>Mango - Foodcenter</i></h3>
+			</div>
+
+			<div class="col" style="text-align: center;">
+				<br> <br>
+				<img src="E:\FPT\Webdesign 2\assignment 2\pictures\f5.jpg" width="330" height="330">
+				<br> <br>
+				<h3 style="text-align: center;"><i>Hao Cha</i></h3>
+			</div>
+
+			<div class="col" style="text-align: center;">
+				<br> <br>
+				<img src="E:\FPT\Webdesign 2\assignment 2\pictures\f6.jpg" width="330" height="330">
+				<br> <br>
+				<h3 style="text-align: center;"><i>Ha Noi Pho</i></h3>
+			</div>
+		</div>
+	</div>
+	<!-------F-Camp Details--------->
+</section>
+<section id="Abouts">
+<h2 class="w3-center w3-text-orange" id="fc">Fcamp</h2>
+<div class="w3-container w3-padding-64 w3-pale-red ">
+<div class="w3-content">
+	<div class="row">
+    <div class="col">
+    <img src="E:/FPT/Webdesign 2/assignment 2/pictures/a5.jpg" style="width:100%;margin:32px 0">
+</div>
+<div class="col">
+    <p><i>Fcamp, from a welcoming event with the size of student goods over the years, has become a unique "special culture" of FPT University Hanoi. With an enthusiastic organizers, Fcamp has become the most dazzling event of the years. I hope that F-Camp will forever be a symbol of dynamism, enthusiasm, burning when thinking about it.
+      </i>
+    </p><br>
+</div>
+  </div>
+</div>
+</section>
+<!-------- NAV CODE END HERE -------->
+<!--------- INTRO --------------->
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="1" class="active"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="E:\FPT\Webdesign 2\assignment 2\pictures\d1.jpg" alt="1" width="1300" height="550">
+      <div class="carousel-caption">
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="E:\FPT\Webdesign 2\assignment 2\pictures\d2.jpg" alt="2" width="1300" height="550">
+      <div class="carousel-caption">
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="E:\FPT\Webdesign 2\assignment 2\pictures\d3.jpg" alt="3" width="1300" height="550">
+      <div class="carousel-caption">
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+<!-- RSVP section -->
+<div class="w3-container w3-padding-64 w3-center w3-wide w3-text-grey" id="rsvp">
+  <h4>Have a great day
+   <br>join us</h4>
+  <h2 style="font-size:50px">2021</h2>
+  <h2 class="w3-xlarge">
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-orange" style="padding:8px 60px">SIGN UP</button>
+  </h2>
+</div>
+<!-- RSVP modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+    <div class="w3-container w3-white w3-center">
+      <h4 class="w3-wide">CAN YOU COME?</h4>
+      <p><i>You can enter student code, if you do not remember, please enter your name. thank you very much. :))</i></p>
+      <form>
+        <input class="w3-input w3-border" type="text" placeholder="Student Code (or Name)" name="name">
+      </form>
+      <div class="w3-row">
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Going</button>
+        </div>
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">Can't come</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<footer class="w3-center w3-orange w3-padding-2">
+  <p><i>Good trip !</i> </p>
+</footer>
+<div class="w3-hide-small" style="margin-bottom:32px"> </div>
+
+</body>
+</html>
